@@ -128,7 +128,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  color: var(--secondary-text)
+  color: var(--secondary-text);
 }
 
 .two-columns__main-text {
@@ -252,7 +252,6 @@
   font-weight: 500;
 }
 .feynman__subtitle {
-  margin: 0;
   width: 550px;
   margin: 0 auto;
   text-align: center;
