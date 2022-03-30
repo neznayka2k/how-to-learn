@@ -220,13 +220,39 @@
 .table__cell_margins_max {
   margin-top: 60px;
 }
-/* .table__heading {
-  padding: 0;
+
+/* Feinman */
+
+
+.feynman {
+  position: relative;
+  background: var(--secondary-color) url(../images/feynman.png) no-repeat left bottom / 867px 637px;
+  padding: 100px 0 400px;
 }
-.table__text {
-  padding: 0;
-  padding-top: 20px;
+.feynman__tile {
+  width: 648px;
+  margin: 0 auto 70px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 500;
 }
-.table__cell:nth-child(3) th {
-  padding-top: 60px;
-} */
+.feynman__subtitle {
+  margin: 0;
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+.feynman__link {
+  text-decoration: none;
+  color: var(--secondary-text);
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
