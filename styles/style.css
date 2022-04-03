@@ -1,5 +1,6 @@
 /* Variables */
 
+
 :root {
   --primary-color: #1f1f1f;
   --secondary-color: #f2f2f2;
@@ -11,7 +12,6 @@
 
 
 .page {
-  box-sizing: border-box;
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
@@ -71,6 +71,17 @@
   height: 608px;
   z-index: 2;
 }
+
+.header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
+  height: 568px;
+  width: 568px;
+  background-color: var(--secondary-text);
+  z-index: 1;
+}
+
 .logo {
   width: 228px;
   height: 32px;
@@ -82,20 +93,6 @@
   left: 64px;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  position: absolute;
-  top: 64px;
-  right: 0;
-  height: 568px;
-  width: 568px;
-  background-color: var(--secondary-text);
-  z-index: 1;
-}
-
-/* Content */
-
-
 /* Description */
 
 .description {
@@ -105,7 +102,6 @@
 .two-columns {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin: 0 auto;
   width: 80%;
 }
@@ -113,9 +109,8 @@
 .two-columns__brief {
   margin: 0;
   width: 175px;
-  align-self: flex-start;
-  line-height: 1.2;
   font-size: 18px;
+  line-height: 1.2;
   font-weight: normal;
   color: var(--secondary-text);
 }
@@ -127,8 +122,8 @@
 
 .two-columns__paragraph {
   margin: 0;
-  line-height: 34px;
   font-size: 24px;
+  line-height: 34px;
   font-weight: normal;
 }
 
@@ -213,34 +208,38 @@
 
 
 .feynman {
+  box-sizing: border-box;
+  height: 890px;
   position: relative;
   background: var(--secondary-color) url(../images/feynman.png) no-repeat left bottom / 867px 637px;
-  padding: 100px 0 400px;
+  padding: 100px 0 0;
 }
-.feynman__tile {
+
+.feynman__title {
   width: 648px;
   margin: 0 auto 70px;
   text-align: center;
-  line-height: 1.15;
   font-size: 120px;
+  line-height: 1.15;
   font-weight: 700;
 }
+
 .feynman__subtitle {
-  width: 550px;
   margin: 0 auto;
   text-align: center;
-  line-height: 51px;
   font-size: 36px;
+  line-height: 51px;
   font-weight: normal;
 }
+
 .feynman__link {
-  text-decoration: none;
-  color: var(--secondary-text);
   position: absolute;
   right: 48px;
   top: 50%;
-  line-height: 51px;
+  text-decoration: none;
+  color: var(--secondary-text);
   font-size: 36px;
+  line-height: 51px;
   font-weight: normal;
 }
 
@@ -275,10 +274,11 @@
 }
 
 .kaufman__triangle {
+  width: 877px;
+  height: 877px;
   position: absolute;
   top: 0;
   right: -210px;
-  width: 877px;
 }
 
 /* Footer */
