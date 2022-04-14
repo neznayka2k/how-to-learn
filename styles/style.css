@@ -24,11 +24,7 @@
 
 .header {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   height: 100vh;
   min-height: 600px;
@@ -75,7 +71,6 @@
   width: 765px;
   height: 608px;
   z-index: 2;
-  -o-object-fit: cover;
   object-fit: cover;
   object-position: bottom;
 }
@@ -108,11 +103,7 @@
 }
 
 .two-columns {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0 auto;
   width: 80%;
@@ -150,18 +141,9 @@
 /* Digits */
 
 .digits {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   margin: 100px auto;
 }
@@ -190,31 +172,17 @@
   margin: 0 auto;
   padding: 0;
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 1100px;
   z-index: 2;
 }
 
 .table__cell {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: flex-start;
   width: 250px;
 }
@@ -236,7 +204,6 @@
 /* Feinman */
 
 .feynman {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   min-height: 890px;
   position: relative;
@@ -278,18 +245,9 @@
 .kaufman {
   overflow: hidden;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   background-color: var(--primary-color);
   padding: 90px 0;
@@ -328,43 +286,24 @@
   background-color: var(--primary-color);
   padding: 60px 0 40px;
   min-height: 350px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: var(--secondary-color);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
   align-items: stretch;
 }
 
 .footer__columns {
   width: 90%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .footer__column_content_copyright {
-  -ms-flex-preferred-size: 711px;
   flex-basis: 711px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -389,19 +328,10 @@
 }
 
 .footer__column-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
   gap: 10px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   margin: 0;
   padding: 0;
