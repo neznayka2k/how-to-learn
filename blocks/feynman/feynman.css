@@ -1,0 +1,8 @@
+.feynman {
+  box-sizing: border-box;
+  min-height: 890px;
+  position: relative;
+  background: var(--secondary-color) url(/images/feynman.png) no-repeat left
+    bottom / 867px 637px;
+  padding: 100px 0 0;
+}

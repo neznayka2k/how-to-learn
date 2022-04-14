@@ -1,0 +1,9 @@
+.header__link {
+  text-decoration: none;
+  color: var(--secondary-text);
+  z-index: 3;
+}
+
+.header__link:hover {
+  opacity: 0.8;
+}
