@@ -8,3 +8,7 @@
   line-height: 51px;
   font-weight: normal;
 }
+
+.feynman__link:hover {
+  opacity: .6;
+}
